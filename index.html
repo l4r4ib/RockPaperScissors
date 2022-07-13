@@ -10,20 +10,19 @@
 </head>
 
 <body>
+    <div id="body">
     <h1> WELCOME TO THE TOURNAMENT</h1>
     <div id="counter">
-        <div id="Pcounter"> 0 </div>
+        <div class="player">Player </div>
+        <div class="player" id="Pcounter"> 0 </div>
         <div> : </div>
-        <div id="Ccounter"> 0 </div>
+        <div class="comp" id="Ccounter"> 0 </div>
+        <div class="comp"> Computer </div>
         
     </div>
+    <h3 id ="result"> The computer will pick one of the options at random </h3>
     <h2>please pick an option from below</h2>
-
-    <!-- <div id=" images">
-    <button class="input">rock</button>
-    <button class="input">paper</button>
-    <button class="input">scissors</button>
-    </div> -->
+  
     <div id="images">
         <img  src="../rockPaperScissor/images/rock.png" alt="rock" id="rock" class="input">
         <img  src="../rockPaperScissor/images/paper.png" alt="paper" id="paper" class="input">
@@ -31,6 +30,7 @@
     </div>
 
     <script src="app.js"></script>
+</div>
 </body>
 
 </html>
